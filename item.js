@@ -13,17 +13,17 @@ class ContainerQueryItem {
 
     this.options['mw'].forEach(minWidth => {
       if (elementWidth >= minWidth) {
-        addClasses.push('query-min-width-' + minWidth);
+        addClasses.push('query-mw-' + minWidth);
       } else {
-        removeClasses.push('query-min-width-' + minWidth);
+        removeClasses.push('query-mw-' + minWidth);
       }
     });
 
     this.options['mh'].forEach(minHeight => {
       if (elementHeight >= minHeight) {
-        addClasses.push('query-min-height-' + minHeight);
+        addClasses.push('query-mh-' + minHeight);
       } else {
-        removeClasses.push('query-min-height-' + minHeight);
+        removeClasses.push('query-mh-' + minHeight);
       }
     });
 
