@@ -1,0 +1,23 @@
+{
+  "name": "container-query",
+  "version": "0.0.1",
+  "description": "helper lib to implement container queries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saschahemleb/container-query.git"
+  },
+  "keywords": [
+    "container-query",
+    "javascript"
+  ],
+  "author": "Sascha Hemleb <container-query@sascha.hemleb.de>",
+  "license": "Apache License 2.0",
+  "bugs": {
+    "url": "https://github.com/saschahemleb/container-query/issues"
+  },
+  "homepage": "https://github.com/saschahemleb/container-query#readme"
+}
